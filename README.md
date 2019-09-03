@@ -5,7 +5,7 @@ simple search api
 
 * NODE: `>= 10`
 * YARN: `1.9.4`
-* mongoDB: `5`
+* mongoDB: `4`
 * DATABASE: `green-house-db`
 
 ## Setup
@@ -19,18 +19,13 @@ yarn
 
 # start the project
 yarn start
-
-# test
-yarn test
 ```
-
 * This starts the server on the port 5200
 
 ## APIs availabe
 
-Fetch all the available products
+Fetch all the available result which has name like %Lelia%
 
 ```curl
 curl -X GET http://localhost:5200/api/v1/search/users/Lelia
 ```
-
