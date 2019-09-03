@@ -24,7 +24,7 @@ yarn start
 
 ## APIs availabe
 
-Fetch all the available products
+Fetch all the available result which has name like %Lelia%
 
 ```curl
 curl -X GET http://localhost:5200/api/v1/search/users/Lelia
