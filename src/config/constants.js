@@ -1,0 +1,4 @@
+module.exports.constants = {
+  ACESS_TOKEN_NOT_FOUND: 'ACESS_TOKEN_NOT_FOUND',
+  FORBIDDEN: 'FORBIDDEN'
+};
