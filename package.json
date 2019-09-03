@@ -1,0 +1,51 @@
+{
+  "name": "search-api",
+  "private": false,
+  "version": "1.0.0",
+  "description": "simple search-api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src test",
+    "lint: fix": "eslint --fix src test",
+    "test": "yarn lint && NODE_ENV=test && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgkstack/search-api.git"
+  },
+  "author": "Gaurav Kumar <gauravkumar5295@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/avdkishore/pos-checkout/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/iamgkstack/search-api/issues"
+  },
+  "homepage": "https://github.com/iamgkstack/search-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "async": "^3.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "faker": "^4.1.0",
+    "glob": "^7.1.4",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2",
+    "sinon": "^7.4.1",
+    "supertest": "^4.0.2"
+  }
+}
