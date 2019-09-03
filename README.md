@@ -20,10 +20,6 @@ yarn
 # start the project
 yarn start
 
-# test
-yarn test
-```
-
 * This starts the server on the port 5200
 
 ## APIs availabe
