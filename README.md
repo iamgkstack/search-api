@@ -5,7 +5,7 @@ simple search api
 
 * NODE: `>= 10`
 * YARN: `1.9.4`
-* mongoDB: `5`
+* mongoDB: `4`
 * DATABASE: `green-house-db`
 
 ## Setup
